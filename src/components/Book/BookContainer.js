@@ -12,7 +12,6 @@ const PostContainer = () => {
 
   useEffect(() => {
     dispatch(getBooks());
-    console.log(books);
   }, [dispatch]);
 
   return (
